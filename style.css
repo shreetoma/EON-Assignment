@@ -1,0 +1,86 @@
+body{
+    overflow:hidden;
+}
+.background{
+    background: linear-gradient(to right,  #1C3763,#392A40, #6C324F, #BB3B56);
+    min-height: 1080px;
+   
+   
+}
+div.background-image{
+    background-image: url(images/user.png);
+    display: block !important;
+    min-height: 900px;
+    background-position: 17%;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.row-modified{
+    margin-top: 17%;
+   
+}
+.heading-modified{
+    font-family: Open Sans;
+color: White;
+font-weight: bold;
+font-size: 45px;
+margin-bottom: 20px;
+}
+input[type=password],input[type=email] {
+    margin-bottom: 15px;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px; 
+    width: 70%;
+    height: 60px;
+    background: none;
+    color:White;
+    font-weight: bold;
+    font-family: Noto Serif;
+font-size: 19px;
+
+    }
+    input[type=password],input[type=email]:focus {
+        background-color: #392A40;
+        outline: none;
+      }
+      input[type=submit]:hover {
+        background-color: #3862AF;
+      }
+    .button{
+        border-radius: 25px;
+    border: 2px solid #1C3763;
+    padding: 20px; 
+    width: 70%;
+    height: 60px;
+    background: #1C3763;
+    color:White;
+    font-weight: bold;
+    font-family: Noto Serif;
+font-size: 19px;
+margin-bottom: 15px;
+    }
+    .link-modified{
+        margin-left: 25px;
+        color:white;
+    }
+    a{
+        color:white;
+    }
+    a:link{
+        text-decoration: underline;
+        color:white;
+    }
+    a:hover{
+        text-decoration: underline;
+        color:#1C3763;
+    }
+    a:active{
+        text-decoration: underline;
+        color:#3862AF; 
+    }
+    .link{
+        margin-left: -50px;
+        color: white
+    }
+
