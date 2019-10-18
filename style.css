@@ -3,22 +3,47 @@ body{
 }
 .background{
     background: linear-gradient(to right,  #1C3763,#392A40, #6C324F, #BB3B56);
-    min-height: 1080px;
-   
+    /* min-height: 1080px; */
+    height: 100%;
+    width: 100%;
+    position: absolute;
    
 }
 div.background-image{
     background-image: url(images/user.png);
     display: block !important;
-    min-height: 900px;
+    /* min-height: 900px; */
     background-position: 17%;
-    background-size: 90%;
+    background-size: 70%;
     background-repeat: no-repeat;
 }
 .row-modified{
     margin-top: 17%;
    
 }
+.forgotRow{
+    width:72%;
+}
+
+  @media only screen and (max-device-width : 640px) {
+    .row-modified {
+        margin-top: 62% !important;
+        text-align: center;
+    }
+    .forgotRow{
+        width:86%;
+    }
+    }
+    
+    @media only screen and (max-device-width: 768px) {
+        .row-modified {
+            margin-top: 62% !important;
+            text-align: center;
+        }
+        .forgotRow{
+            width:86%;
+        }
+    }
 .heading-modified{
     font-family: Open Sans;
 color: White;
@@ -84,3 +109,4 @@ margin-bottom: 15px;
         color: white
     }
 
+   
